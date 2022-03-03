@@ -1,0 +1,140 @@
+body {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+#top {
+    font-family: trebuchet MS;
+    background-color: #F49600;
+    border: solid #F49600 50px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+#topTitle {
+    font-size: 24px;
+    padding: 10px;
+}
+
+.topImage {
+    height: 150px;
+    width: 150px;
+}
+
+#links {
+    padding-top: 10px;
+}
+
+a:link {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+  
+a:visited {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+  
+a:hover {
+    font-size: 18px;
+    color: #FBD599;
+    text-decoration: none;
+}
+  
+a:active {
+    font-size: 18px;
+    color: #FBD599;
+    text-decoration: none;
+}
+
+#formTitle {
+    font-family: trebuchet ms;
+    font-size: 24px;
+    padding: 10px;
+    margin-left: 10%;
+}
+
+#formSubtitle {
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 10%;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: trebuchet ms;
+    background-color: white;
+    border: 5px solid #F49600;
+    border-radius: 8px;
+    border-bottom: white;
+    padding: 5px;
+}
+
+fieldset {
+    font-family: sans-serif;
+    border: 5px solid #F49600;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+    width: 75vw;
+    margin-left: 10%;
+    font-size: 18px;
+}
+
+dd {
+    font-size: 14px;
+    margin-bottom: -25px;
+}
+
+.formImage {
+    margin-top: -35vh;
+    float: right;
+}
+
+.ticket {
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 10%;
+}
+
+#ticket {
+    width: 150px;
+}
+
+input {
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 2px;
+    background-color: #FBD599;
+    border: solid #FBD599 2px;
+    border-radius: 5px;
+    width: 5vw;
+}
+
+button {
+    font-family: trebuchet ms;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+    background-color: #F49600;
+    border: solid #F49600 2px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #FFAD00;
+    border: solid #FFAD00 2px;
+}
+
+#bottom {
+    font-family: trebuchet MS;
+    background-color: #F49600;
+    border: solid #F49600 20px;
+    margin-left: -8px;
+    margin-right: -8px;
+}

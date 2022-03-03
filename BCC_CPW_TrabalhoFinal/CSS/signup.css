@@ -1,0 +1,121 @@
+body {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+#top {
+    font-family: trebuchet MS;
+    background-color: #F49600;
+    border: solid #F49600 50px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+#topTitle {
+    font-size: 24px;
+    padding: 10px;
+}
+
+.topImage {
+    height: 150px;
+    width: 150px;
+}
+
+#links {
+    padding-top: 10px;
+}
+
+a:link {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+  
+a:visited {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+  
+a:hover {
+    font-size: 18px;
+    color: #FBD599;
+    text-decoration: none;
+}
+  
+a:active {
+    font-size: 18px;
+    color: #FBD599;
+    text-decoration: none;
+}
+
+#formTitle {
+    font-family: trebuchet ms;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.input {
+font-family: trebuchet ms;
+font-size: 20px;
+padding: 5px;
+}
+
+.select {
+font-family: trebuchet ms;
+font-size: 20px;
+padding: 5px;
+}
+
+input {
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 2px;
+    background-color: #FBD599;
+    border: solid #FBD599 2px;
+    border-radius: 5px;
+}
+
+select {
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 2px;
+    background-color: #FBD599;
+    border: solid #FBD599 2px;
+    border-radius: 5px;
+}
+
+button {
+    font-family: trebuchet ms;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+    background-color: #F49600;
+    border: solid #F49600 2px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #FFAD00;
+    border: solid #FFAD00 2px;
+}
+
+#ticket {
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: #F49600;
+    padding: 5px;
+    border: solid #F49600 5px;
+    border-radius: 5px;
+    width: 50vw;
+    margin-left: 50vh;
+}
+
+#bottom {
+    font-family: trebuchet MS;
+    background-color: #F49600;
+    border: solid #F49600 20px;
+    margin-left: -8px;
+    margin-right: -8px;
+}

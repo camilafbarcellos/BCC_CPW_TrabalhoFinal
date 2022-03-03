@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/signup.css">
+    <script src="JS/signup.js"></script>
+    <title>Inscreva-se | Hermes</title>
+</head>
+
+<body>
+    <div id="top">
+        <img class="topImage" src="IMG/logoHermes.png" align="left">
+        <h1 id="topTitle">Hermes | Fornecedor oficial de suprimentos para Semideuses do mundo todo!</h1>
+        <hr color="black" size="1px">
+        <div id="links">
+            <a class="tabs" href="home.html">Início</a>
+            <a>&nbsp;</a>
+            <a class="tabs" href="signup.html">Inscrição</a>
+            <a>&nbsp;</a>
+            <a class="tabs" href="store.html">Loja</a>
+        </div>
+    </div>
+
+    <form id="form" align=center>
+        <div id="formTitle">
+            <label>Cadastro de Semideus</label>
+        </div>
+        <div class="input">
+            <label>Nome</label>
+            <input id="nome" type="text" placeholder="Nome completo">
+        </div>
+        <div class="input">
+            <label>Idade</label>
+            <input id="idade" type="number" placeholder="Anos completos">
+        </div>
+        <div class="select">
+            <label>Parentesco divino</label>
+            <select id="divine">
+                <option selected disabled>Selecione</option>
+                <option value="1">Afrodite / Vênus</option>
+                <option value="2">Apolo / Febo</option>
+                <option value="3">Ares / Marte</option>
+                <option value="4">Atena / Minerva</option>
+                <option value="5">Caçadora de Ártemis / Diana</option>
+                <option value="6">Deméter / Ceres</option>
+                <option value="7">Dionísio / Baco</option>
+                <option value="8">Hades / Plutão</option>
+                <option value="9">Hefesto / Vulcano</option>
+                <option value="10">Hera / Juno</option>
+                <option value="11">Hermes / Mercúrio</option>
+                <option value="12">Poseidon / Netuno</option>
+                <option value="13">Zeus / Júpiter</option>
+            </select>
+            </label>
+        </div>
+        <div class="select">
+            <label>Acampamento</label>
+            <select id="camp">
+                <option selected disabled>Selecione</option>
+                <option value="1">Meio-Sangue (GREGO)</option>
+                <option value="2">Júpiter (ROMANO)</option>
+            </select>
+        </div>
+        <br>
+        <button type="button" onclick="enviar()">Efetuar cadastro</button>
+    </form>
+
+    <br>
+
+    <div id="ticket" align="center"></div>
+
+    <br><br><br><br><br>
+</body>
+
+<footer id="bottom" align="center">
+    @Copyright Camila Florão Barcellos 2021
+    <br>
+    Website desenvolvido na disciplina de CPW do curso de Ciência da
+    Computação
+</footer>
+
+</html>

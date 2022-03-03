@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/store.css">
+    <script src="JS/store.js"></script>
+    <title>Loja de suprimentos | Hermes</title>
+</head>
+
+<body>
+    <div id="top">
+        <img class="topImage" src="IMG/logoHermes.png" align="left">
+        <h1 id="topTitle">Hermes | Fornecedor oficial de suprimentos para Semideuses do mundo todo!</h1>
+        <hr color="black" size="1px">
+        <div id="links">
+            <a class="tabs" href="home.html">Início</a>
+            <a>&nbsp;</a>
+            <a class="tabs" href="signup.html">Inscrição</a>
+            <a>&nbsp;</a>
+            <a class="tabs" href="store.html">Loja</a>
+        </div>
+    </div>
+
+    <form id="form">
+        <h1 id="formTitle">Loja online</h1>
+        <p id="formSubtitle">
+            Adicione a quantidade desejada para compra APENAS dos itens desejados e pressione o botão para enviar
+        </p>
+        <label class="ticket">Insira seu ticket de cadastro: SD</label>
+        <input id="ticket" type="text" required minlength="8" maxlength="8">
+        <br><br>
+        <fieldset>
+            <legend>Suprimentos disponíveis</legend>
+            <form id="form">
+                <dl>
+                    <label>
+                        <dt></dt><b>Ambrosia</b> (500g) - 24 dracmas
+                        <input id="ambrosia" type="number"></dt>
+                        <dd>Néctar dos deuses capaz de acelerar sua regeneração</dd>
+                    </label>
+                    <br><br>
+                    <label>
+                        <dt></dt><b>Arco</b> - 48 dracmas
+                        <input id="arco" type="number"></dt>
+                        <dd>Arco com corpo fabricado em madeira envernizada com fios de Ouro Imperial</dd>
+                    </label>
+                    <br><br>
+                    <label>
+                        <dt></dt><b>Boné dos Yankees da invisibilidade</b> - 164 dracmas
+                        <input id="bone" type="number"></dt>
+                        <dd>Boné mágico dos Yankess que garante invisibilidade ao ser utilizado</dd>
+                    </label>
+                    <br><br>
+                    <label>
+                        <dt></dt><b>Capacete</b> - 32 dracmas
+                        <input id="capacete" type="number"></dt>
+                        <dd>Capacete maciço fabricado em Bronze Celestial</dd>
+                    </label>
+                    <br><br>
+                    <label>
+                        <dt></dt><b>Cinto de ferramentas</b> - 28 dracmas
+                        <input id="cinto" type="number"></dt>
+                        <dd>Cinto prático para uso de membros do Chalé de Hefesto / Vulcano</dd>
+                    </label>
+                    <br><br>
+                    <label>
+                        <dt></dt><b>Escudo</b> - 30 dracmas
+                        <input id="escudo" type="number">
+                        <dd>Escudo de proteção fabricado em Bronze Celestial puro</dd>
+                    </label>
+                    <br><br>
+                    <img class="formImage" src="IMG/storeItems.jpg">
+                    <label>
+                        <dt></dt><b>Espada</b> - 44 dracmas
+                        <input id="espada" type="number"></dt>
+                        <dd>Poderosa espada de Bronze Celestial (Ouro Imperial disponível apenas para semideuses em
+                            missões)</dd>
+                    </label>
+                    <br><br>
+                    <dt>
+                    <dt></dt><b>Flechas</b> (25un) - 18 dracmas
+                    <input id="flechas" type="number"></dt>
+                    <dd>25 unidades de flechas com ponta em Bronze Celestial (Ouro Imperial disponível apenas para
+                        semideuses em missões)</dd>
+                    </label>
+                    <br><br>
+                    <label>
+                        <dt></dt><b>Garrafa térmica</b> - 28 dracmas
+                        <input id="garrafa" type="number"></dt>
+                        <dd>Garra térmica que mantém a temperatura da sua bebida</dd>
+                    </label>
+                    <br><br>
+                    <label>
+                        <dt></dt><b>Lança</b> - 42 dracmas
+                        <input id="lanca" type="number"></dt>
+                        <dd>Lança resistente fabricada em Bronze Celestial com ponta em Ouro Imperial e empunhadura em
+                            couro</dd>
+                    </label>
+                    <br><br>
+                    <label>
+                        <dt></dt><b>Mochila</b> (35L) - 20 dracmas
+                        <input id="mochila" type="number"></dt>
+                        <dd>Volumosa mochila à prova d'água para carregar em suas missões</dd>
+                    </label>
+                    <br><br>
+                    <label>
+                        <dt></dt><b>Multivitaminas</b> - 12 dracmas
+                        <input id="multivitaminas" type="number"></dt>
+                        <dd>Frasco com vitaminas mágicas para diversos usos (não nos responsabilizamos por reações
+                            adversas)</dd>
+                    </label>
+                    <br><br>
+                    <label>
+                        <dt></dt><b>Peitoral</b> - 50 dracmas
+                        <input id="peitoral" type="number"></dt>
+                        <dd>Peitoral robusto em Bronze Celestial com ataduras em couro para melhor ajuste ao corpo</dd>
+                    </label>
+                    <br><br>
+                    <label>
+                        <dt></dt><b>Sapatos alados</b> - 158 dracmas
+                        <input id="sapatos" type="number"></dt>
+                        <dd>Tênis Nike Air Jordan com asas em miniatura que garantem voos baixos (não nos
+                            responsabilizamos por acidentes ocasionais)</dd>
+                    </label>
+                </dl>
+                <br><br>
+                <button type="submit" onclick="enviar()">Enviar pedido</button>
+                <button type="reset">Limpar campos</button>
+            </form>
+        </fieldset>
+
+        <br><br><br><br><br>
+</body>
+
+<footer id="bottom" align="center">
+    @Copyright Camila Florão Barcellos 2021
+    <br>
+    Website desenvolvido na disciplina de CPW do curso de Ciência da
+    Computação
+</footer>
+
+</html>
